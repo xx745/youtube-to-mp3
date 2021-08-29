@@ -1,0 +1,29 @@
+{
+  "name": "youtube-to-mp3",
+  "version": "1.0.0",
+  "description": "Custom YouTube to MP3 converter to download podcasts.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "echo \"Error: no configured yet\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xx745/youtube-to-mp3.git"
+  },
+  "keywords": [
+    "youtube",
+    "mp3",
+    "converter",
+    "downloader"
+  ],
+  "author": "xx745",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xx745/youtube-to-mp3/issues"
+  },
+  "homepage": "https://github.com/xx745/youtube-to-mp3#readme",
+  "dependencies": {
+    "ytdl-core": "^4.9.1"
+  }
+}
