@@ -28,7 +28,6 @@
   "homepage": "https://github.com/xx745/youtube-to-mp3#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "helmet": "^4.6.0",
     "ytdl-core": "^4.9.1"
   },
   "devDependencies": {
