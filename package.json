@@ -4,7 +4,7 @@
   "description": "Custom YouTube to MP3 converter to download podcasts.",
   "main": "index.js",
   "scripts": {
-    "serve": "echo \"Error: no configured yet\" && exit 1",
+    "serve": "live-server src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/xx745/youtube-to-mp3#readme",
   "dependencies": {
     "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
