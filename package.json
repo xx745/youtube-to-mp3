@@ -4,8 +4,7 @@
   "description": "Custom YouTube to MP3 converter to download podcasts.",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server src",
-    "build": "babel src -d dist"
+    "dev": "nodemon ./server/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,11 @@
     "youtube",
     "mp3",
     "converter",
-    "downloader"
+    "downloader",
+    "server",
+    "nodejs",
+    "express",
+    "expressjs"
   ],
   "author": "xx745",
   "license": "MIT",
@@ -24,12 +27,11 @@
   },
   "homepage": "https://github.com/xx745/youtube-to-mp3#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "ytdl-core": "^4.9.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "live-server": "^1.2.1"
+    "nodemon": "^2.0.12"
   }
 }

@@ -6,5 +6,5 @@ button.addEventListener('click', () => {
 });
 
 function sendURL(URL) {
-  console.log(URL)
+  window.location.href = `http://localhost:8080/download?URL=${URL}`;
 }

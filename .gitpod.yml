@@ -8,6 +8,7 @@
 ports:
   - port: 8080 # will be used by 'yarn dev'
     onOpen: open-preview
+  - port: 4000
 
 vscode:
   extensions:
