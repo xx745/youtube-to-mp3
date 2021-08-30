@@ -1,13 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+  context: .
+
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-# tasks:
-#  - name: Install dependencies and start dev env
-#    init: yarn
-#    command: yarn serve
+tasks:
+  - init: yarn install
+  - command: yarn dev
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 8080 # will be used by 'yarn dev'
-    onOpen: open-preview
   - port: 4000
 
 vscode:
