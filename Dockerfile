@@ -1,5 +1,5 @@
 FROM alpine:latest
-WORKDIR /usr/src/app
+WORKDIR /usr/src/youtube-to-mp3
 
 RUN apk update
 RUN apk add yarn
