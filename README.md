@@ -17,13 +17,26 @@
 
 3. Depending on the file size conversion might take from few seconds to few hours.
 
-### Running inside Docker (Alpine)
-1. Build docker image
+### Running inside Docker ([Alpine image](https://hub.docker.com/_/alpine))
+1. Build docker image - this is required only once
     ```bash
     make build
     ```
-2. Run Docker container
+2. Run Docker container - this is required only once
     ```bash
     make run
     ```
-3. Load `http://localhost:3000` in your browser
+4. Start Docker container (use after running `make run`)
+    ```bash
+    make start
+    ```
+4. Stop Docker container
+    ```bash
+    make stop
+    ```
+4. Enter containers bash
+    ```bash
+    make bash
+    ```
+
+Load `http://localhost:3000` in your browser
