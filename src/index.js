@@ -6,5 +6,5 @@ button.addEventListener('click', () => {
 });
 
 function sendURL(URL) {
-  window.open(`${window.location.href}/download?URL=${URL}`);
+  window.open(`${window.location.href}download?URL=${URL}`);
 }
