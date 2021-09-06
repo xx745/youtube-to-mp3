@@ -21,8 +21,8 @@ start:
 	docker stop ${CONTAINER_ID}
 	@echo "\n"
 	@echo "Starting container..."
+	@echo "(To stop container type: 'CTRL + Z', then 'make stop')"
 	docker start -a -i "${CONTAINER_NAME}"
-	@echo "To stop container type: 'CTRL + Z', then 'make stop'"
 
 stop:
 	@echo "Stopping container ID: ${CONTAINER_ID}"
