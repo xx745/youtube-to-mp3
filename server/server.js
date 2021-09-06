@@ -5,7 +5,7 @@ const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
 ffmpeg.setFfmpegPath(ffmpegPath);
 
 const app = express();
-const PORT = 4000;
+const PORT = 3000;
 
 app.use(express.static('src'))
 app.use(express.urlencoded({ extended: true }));

@@ -14,6 +14,6 @@ yarn
     ```bash
     yarn dev
     ```
-2. Load `http://localhost:4000` in your browser
+2. Load `http://localhost:3000` in your browser
 
 3. Depending on the file size conversion might take from few seconds to few hours.
