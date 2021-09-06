@@ -4,16 +4,26 @@
 ## You can use GitPod to start contributing
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/xx745/youtube-to-mp3)
 
-### Installation
-```bash
-yarn
-```
-
-### Using
-1. Start server
+### Using locally
+1. Install dependencies
+    ```bash
+    yarn
+    ```
+3. Start server
     ```bash
     yarn dev
     ```
 2. Load `http://localhost:3000` in your browser
 
 3. Depending on the file size conversion might take from few seconds to few hours.
+
+### Running inside Docker (Alpine)
+1. Build docker image
+    ```bash
+    make build
+    ```
+2. Run Docker container
+    ```bash
+    make run
+    ```
+3. Load `http://localhost:3000` in your browser
